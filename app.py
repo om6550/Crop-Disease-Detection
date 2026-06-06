@@ -3,13 +3,18 @@ import pickle
 import numpy as np
 from PIL import Image
 import os 
+import gdown
 
 print("Current Folder:", os.getcwd())
 print(os.listdir())
 
-# Load pickle model
-import tensorflow as tf
-model = tf.keras.models.load_model(r"C:\Users\HP\Downloads\intership\crop_model .h5")
+FILE_ID = "1ja0p0NVFKvDWwk0XYiT3fBuHG3tU8vR5"
+
+if not os.path.exists("crop_model.h5"):
+    url = f"https://drive.google.com/uc?id={FILE_ID}"
+    gdown.download(url, "crop_model.h5", quiet=False)
+
+model = tf.keras.models.load_model("crop_model.h5")
 
 st.title("🌿 Crop Disease Detection")
 
