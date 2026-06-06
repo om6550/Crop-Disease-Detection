@@ -9,7 +9,7 @@ print(os.listdir())
 
 # Load pickle model
 import tensorflow as tf
-model = tf.keras.models.load_model(r"C:\Users\HP\Downloads\intership\crop_disease_app\crop_model.h5")
+model = tf.keras.models.load_model(r"C:\Users\HP\Downloads\intership\crop_model .h5")
 
 st.title("🌿 Crop Disease Detection")
 
