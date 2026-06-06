@@ -1,5 +1,9 @@
 # Crop Disease Detection
 
+## Live Demo
+
+[https://your-streamlit-app-url.streamlit.app](https://crop-disease-detection-nhbriks9nzwkwik4zavajo.streamlit.app/)
+
 A CNN-based deep learning project that detects whether a crop leaf is healthy or diseased.
 
 ## Technologies Used
