@@ -1,10 +1,7 @@
-# Crop Disease Detection
+# Crop Disease Detection Using CNN
 
-## Live Demo
-
-[https://your-streamlit-app-url.streamlit.app](https://crop-disease-detection-nhbriks9nzwkwik4zavajo.streamlit.app/)
-
-A CNN-based deep learning project that detects whether a crop leaf is healthy or diseased.
+## Overview
+This project uses a Convolutional Neural Network (CNN) to classify crop leaf images as Healthy or Diseased. The model was trained using the PlantVillage dataset and deployed using Streamlit Cloud.
 
 ## Technologies Used
 - Python
@@ -14,16 +11,20 @@ A CNN-based deep learning project that detects whether a crop leaf is healthy or
 - NumPy
 - Matplotlib
 
+## Dataset
+PlantVillage Dataset
+
 ## Accuracy
-Validation Accuracy: 96.96%
+- Training Accuracy: 98.98%
+- Validation Accuracy: 94.69%
 
 ## Features
-- Image Upload
-- Disease Detection
-- Streamlit Web App
+- Upload crop leaf image
+- Detect healthy or diseased leaf
+- Real-time prediction using Streamlit
 
-## Run Locally
+## Live Demo
+[https://your-streamlit-app-url.streamlit.app](https://crop-disease-detection-nhbriks9nzwkwik4zavajo.streamlit.app/)
 
-pip install -r requirements.txt
-
-streamlit run app.py
+## GitHub Repository
+https://github.com/om6550/Crop-Disease-Detection
